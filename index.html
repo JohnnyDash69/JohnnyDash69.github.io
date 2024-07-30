@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Hobby</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Favourites</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+                <li><a href="index.html#specs">Car Specs</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="Save.html">Save for Later</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero"></div>
+    </section>
+    <section id="about" class="block">
+        <h2>My Passion</h2>
+        <p>I have been a car enthusiast for over 5 years. I enjoy learning about different car models, their history, and the technology behind them. This website is a way for me to share my passion with the world. Below you'll see a gallery with some of my favourite cars, as well as their specifications.</p>
+        <p>Check out <a href="https://www.caranddriver.com/">Car and Driver</a> for the latest:</p>
+        <ul>
+            <li>Car Reviews</li>
+            <li>Automotive News</li>
+            <li>Updates</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Dream Car Gallery</h2>
+        <div class="gallery">
+            <div class="car">
+                <img src="MH2GTR.jpeg" alt="Car 1">
+                <p>BMW M2 Competition Manhart Edition</p>
+                <button class="save-for-later">Save for later</button>
+                <button class="like">Like</button>
+                <textarea class="comment-input" placeholder="Leave a comment"></textarea>
+                <button class="submit-comment">Submit Comment</button>
+                <div class="comments"></div>
+            </div>
+            <div class="car">
+                <img src="Chiron.jpeg" alt="Car 2">
+                <p>Bugatti Chiron</p>
+                <button class="save-for-later">Save for later</button>
+                <button class="like">Like</button>
+                <textarea class="comment-input" placeholder="Leave a comment"></textarea>
+                <button class="submit-comment">Submit Comment</button>
+                <div class="comments"></div>
+            </div>
+            <div class="car">
+                <img src="Centenario.jpeg" alt="Car 3">
+                <p>Lamborghini Centenario</p>
+                <button class="save-for-later">Save for later</button>
+                <button class="like">Like</button>
+                <textarea class="comment-input" placeholder="Leave a comment"></textarea>
+                <button class="submit-comment">Submit Comment</button>
+                <div class="comments"></div>
+            </div>
+            <div class="car">
+                <img src="LaFerrari.jpeg" alt="Car 4">
+                <p>Ferrari LaFerrari</p>
+                <button class="save-for-later">Save for later</button>
+                <button class="like">Like</button>
+                <textarea class="comment-input" placeholder="Leave a comment"></textarea>
+                <button class="submit-comment">Submit Comment</button>
+                <div class="comments"></div>
+            </div>
+            <div class="car">
+                <img src="Jesko.jpeg" alt="Car 5">
+                <p>Koenigsegg Jesko Absolut</p>
+                <button class="save-for-later">Save for later</button>
+                <button class="like">Like</button>
+                <textarea class="comment-input" placeholder="Leave a comment"></textarea>
+                <button class="submit-comment">Submit Comment</button>
+                <div class="comments"></div>
+            </div>
+        </div>
+    </section>
+    <section id="specs" class="block">
+        <h2>Car Gallery Specs</h2>
+        <table>
+            <tr>
+                <th>Car Model</th>
+                <th>Engine</th>
+                <th>Horsepower</th>
+                <th>Top Speed</th>
+            </tr>
+            <tr>
+                <td>BMW M2 Competition Manhart Edition</td>
+                <td>I6</td>
+                <td>1200 HP</td>
+                <td>174 mph/280 kph</td>
+            </tr>
+            <tr>
+                <td>Bugatti Chiron</td>
+                <td>W16</td>
+                <td>1500 HP</td>
+                <td>304 mph/481 kph</td>
+            </tr>
+            <tr>
+                <td>Lamborghini Centenario</td>
+                <td>V12</td>
+                <td>770 HP</td>
+                <td>217 mph/349 kmh</td>
+            </tr>
+            <tr>
+                <td>Ferrari LaFerrari</td>
+                <td>V12</td>
+                <td>789 HP</td>
+                <td>218 mph/352 kmh</td>
+            </tr>
+            <tr>
+                <td>Koenigsegg Jesko Absolut</td>
+                <td>V8</td>
+                <td>1600 HP</td>
+                <td>350 mph/563 kmh</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="radio" id="subscribe-yes" name="subscribe" value="yes"> Yes
+            <input type="radio" id="subscribe-no" name="subscribe" value="no"> No
+            <button type="submit">Send</button>
+        </form>
+        <p>For more information, contact me at <a href="mailto:johandrematt@icloud.com">johandrematt@icloud.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cars worth loving.</p>
+    </footer>
+</body>
+</html>
